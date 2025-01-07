@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ESNext"],
+    "allowJs": true,
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "target": "ES2019",
+    "declaration": true,
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "isolatedModules": true
+  },
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "include": ["src"]
+}
